@@ -34,6 +34,59 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
+  flutter_svg: 
+  flutter_bloc: 
+  freezed_annotation: 
+  easy_localization: 
+  flutter_secure_storage: 
+  dio: 
+  json_annotation: 
+  retrofit: 
+  logger: 
+  get_it: 
+  equatable: 
+  image_picker: 
+  pin_code_fields: 
+  rxdart: 
+  floor: 
+  pull_to_refresh: 
+  share_plus: 
+  popover: 
+  flutter_dotenv: 
+  scrollable_positioned_list: 
+  cached_network_image: 
+  uuid: 
+  flutter_gen: 
+  hive_flutter: 
+  country_picker: 
+  fluttercontactpicker: 
+  font_awesome_flutter: 
+  firebase_core: 
+  firebase_crashlytics: 
+  flutter_local_notifications: 
+  package_info_plus: 
+  alice: 
+  vibration: 
+  device_info_plus: 
+  url_launcher: 
+  syncfusion_flutter_datepicker: 
+  flutter_cache_manager: 
+  path_provider: 
+  permission_handler: 
+  image_cropper: 
+  file_picker: 
+  firebase_analytics: 
+  logging: 
+  flutter_udid: 
+  lottie: 
+  cloud_firestore: 
+  firebase_messaging: 
+  firebase_storage: 
+  table_calendar: 
+  syncfusion_flutter_charts: 
+  photo_view: 
+  flick_video_player: 
+  firebase_dynamic_links: 
   cupertino_icons: ^1.0.6
 
 dev_dependencies:
@@ -45,6 +98,11 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
+  retrofit_generator: 
+  floor_generator: 
+  json_serializable: 
+  freezed: 
+  build_runner: 
   flutter_lints: ^3.0.0
 
 # For information on the generic Dart part of this file, see the
