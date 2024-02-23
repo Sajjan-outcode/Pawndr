@@ -51,6 +51,25 @@ android {
         versionName flutterVersionName
     }
 
+	flavorDimensions "default"
+
+	productFlavors {
+    	dev {
+        	dimension "default"
+        	resValue "string", "app_name", "PawndrApp Dev"
+        	applicationId "com.pawndr.app.dev"
+    	}
+    	uat {
+        	dimension "default"
+        	resValue "string", "app_name", "PawndrApp UAT"
+        	applicationId "com.pawndr.app.uat"
+    	}
+    	prod {
+        	dimension "default"
+        	resValue "string", "app_name", "PawndrApp"
+        	applicationId "com.pawndr.app"
+    	}
+	}
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
